@@ -1,1 +1,21 @@
-<h2>Konvertera</h2>
+<div id="convertgrid">
+    <h2>Temperaturkonverting</h2>
+    <div>
+        <label for="celsius">Celsius : </label>
+        <input type="number" id="celsius"[(ngModel)]="celsius" (input)="convertFahrenheit()">
+    </div>
+    <div>
+        <label for="fahrenheit">Fahrenheit : </label>
+        <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit" (input)="convertCelsius()">
+    </div>
+
+    <h2>Längdkonvertering</h2>
+    <div>
+        <label for="meter">Meter : </label>
+        <input type="number" id="meter" [(ngModel)]="meter" (input)="convertFeet()">
+    </div>
+    <div>
+        <label for="feet">Feet : </label>
+        <input type="number" id="feet" [(ngModel)]="feet" (input)="convertMeters()">
+    </div>
+</div>
