@@ -1,0 +1,17 @@
+*{
+    font-size: 2rem;
+}
+
+#indexgrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    gap: 10px;
+}
+
+#indexgrid img{
+    max-width: 65%;
+    border-radius: 20px;
+}
